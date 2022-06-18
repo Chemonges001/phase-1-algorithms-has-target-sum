@@ -17,15 +17,22 @@ function hasTargetSum(array, target) {
 /* 
   Write the Big O time complexity of your function here
 */
-// O(n**2)
+O(n**2)
 /* 
   Add your pseudocode here
 */
+Itterate through the array elements idenitfying the numbers that when added equals to the target
+
+start from indexOf(0) and iterrate to find another number
+
+if two numbers add to the target return true 
+
+else, return false 
 
 /*
   Add written explanation of your solution here
 */
-
+the code iterates through the array and finds two numbers that adds to the target and returns a true 
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
   // add your own custom tests in here
